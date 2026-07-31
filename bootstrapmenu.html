@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Voting System</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#EAF4FC;
+}
+
+.header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.navbar{
+    background:#00509E;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    background:#249D8F;
+}
+
+.content{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.content h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+ONLINE VOTING SYSTEM
+</div>
+
+<div class="navbar">
+
+<a href="/">Home</a>
+
+<a href="/register">Voter Registration</a>
+
+<a href="/voter/list">Voter List</a>
+
+<a href="/login">Login</a>
+
+</div>
+
+<div class="content">
+
+<h2>Welcome to Online Voting System</h2>
+
+<p>
+Click <b>Voter Registration</b> to register a voter.<br><br>
+
+After registration the voter details will be stored in MySQL and displayed in the Voter List.
+</p>
+
+</div>
+
+</body>
+</html>
